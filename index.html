@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="message">Hello, World!</h1>
+  <button onclick="changeMessage()">Click Me</button>
+
+  <script>
+    function changeMessage() {
+      document.getElementById("message").textContent = "Button Clicked!";
+    }
+  </script>
+</body>
+</html>
